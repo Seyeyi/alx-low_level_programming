@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - check main
  *
  * Return: always 0.
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char alpha = 'a';
 
