@@ -1,16 +1,14 @@
-#include "main.h"
+#include "holberton.h"
+#include <stdio.h>
 
 /**
- * _isupper - check the code
- * @c: is para
- * Return: Always 0
+ * _isupper - checks for uppercase character
+ * @c: Variable text
+ * Return: Always 0.
  */
-
 int _isupper(int c)
 {
-	char c;
-
-	if (c >= 65 && c <= 90)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
@@ -19,3 +17,4 @@ int _isupper(int c)
 		return (0);
 	}
 }
+
