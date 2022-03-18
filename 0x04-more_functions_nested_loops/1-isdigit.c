@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isdigit(int c) - check code
- * @c - is para
+ * _isdigit - check code
+ * @c : is para
  * Return: Always 0;
  */
 int _isdigit(int c)
