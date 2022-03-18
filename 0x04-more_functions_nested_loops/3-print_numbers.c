@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * print_numbers - prints numbers
- *
+ * @c: param
  * Return: Always 0
  */
-int print_numbers(void)
+int print_numbers(int c)
 {
-	for (i = 0; i <= 9; i++)
-		_putchar(i);
+	for (c >= 48; c <= 57; c++)
+		_putchar(c);
 	_putchar("\n");
 }
